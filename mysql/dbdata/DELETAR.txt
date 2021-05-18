@@ -1,0 +1,1 @@
+Arquivo somente para o git versionar a pasta. DELETAR ap[os o clone do projeto.
