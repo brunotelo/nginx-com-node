@@ -2,7 +2,7 @@ FROM node
 
 WORKDIR /usr/src/app
 
-COPY package.json ./
+COPY . .
 
 RUN yarn install && apt-get update && apt-get install -y wget
 
