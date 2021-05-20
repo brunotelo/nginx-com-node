@@ -26,6 +26,7 @@ services:
         entrypoint: dockerize -wait tcp://mysql:3306 -timeout 60s node index.js
         volumes: 
             - ./node:/usr/src/app
+            - /usr/src/app/node_modules
         networks: 
             - app-network
         tty: true
